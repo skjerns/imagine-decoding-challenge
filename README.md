@@ -27,6 +27,7 @@ Instructions: *“Close your eyes and mentally imagine the image belonging to th
 
 https://github.com/user-attachments/assets/7a6b6ba3-c3f0-4c2f-ace2-3a9cb33e2a62
 
+See a schematic of the two trial types here: [trial schematic](md_assets/diagram_trials.png)
 
 ## The Data
 
