@@ -18,13 +18,16 @@ We've recorded a **localizer** in the [MEG](https://en.wikipedia.org/wiki/Magnet
 
 <u>Example of the localizer:</u>
 
-https://github.com/skjerns/imagine-decoding-challenge/raw/refs/heads/main/md_assets/presentation_localizer.mp4
+<video controls>
+  <source src="https://github.com/skjerns/imagine-decoding-challenge/raw/refs/heads/main/md_assets/presentation_localizer.mp4" type="video/mp4">
+</video>
 
 Instructions: *"Press a button if there is a mismatch between word and image"*
 
 <u>Example of the imagine trials:</u>
-
-https://github.com/skjerns/imagine-decoding-challenge/raw/refs/heads/main/md_assets/presentation_imagine.mp4
+<video controls>
+  <source src="https://github.com/skjerns/imagine-decoding-challenge/raw/refs/heads/main/md_assets/presentation_imagine.mp4" type="video/mp4">
+</video>
 
 Instructions: *"Close your eyes and mentally imagine the image belonging to the word you hear as vividly as possible"*
 
