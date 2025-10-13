@@ -19,7 +19,7 @@ We've recorded a **localizer** in the [MEG](https://en.wikipedia.org/wiki/Magnet
 <u>Example of the localizer:</u>
 
 <video controls>
-  <source src="https://github.com/skjerns/imagine-decoding-challenge/raw/refs/heads/main/md_assets/presentation_localizer.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/skjerns/imagine-decoding-challenge/main/md_assets/presentation_localizer.mp4" type="video/mp4">
 </video>
 
 Instructions: *"Press a button if there is a mismatch between word and image"*
