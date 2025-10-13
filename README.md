@@ -16,17 +16,17 @@ We've recorded a **localizer** in the [MEG](https://en.wikipedia.org/wiki/Magnet
 
 **Goal:** The epochs have been scrambled! Can you figure out in which epoch we played which word as a auditory stimulus by training decoder on visual images of the words?
 
-Example of the localizer:
+<u>Example of the localizer:</u>
 
+https://github.com/skjerns/imagine-decoding-challenge/raw/refs/heads/main/md_assets/presentation_localizer.mp4
 
+Instructions: *"Press a button if there is a mismatch between word and image"*
 
-Instructions: "Press a button if there is a mismatch between word and image"
+<u>Example of the imagine trials:</u>
 
-Example of the imagine trials:
+https://github.com/skjerns/imagine-decoding-challenge/raw/refs/heads/main/md_assets/presentation_imagine.mp4
 
-
-
-Instructions: "Close your eyes and mentally imagine the image belonging to the word you hear as vividly as possible"
+Instructions: *"Close your eyes and mentally imagine the image belonging to the word you hear as vividly as possible"*
 
 
 
