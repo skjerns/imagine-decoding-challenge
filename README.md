@@ -21,7 +21,6 @@ Instructions: *“Press a button if there is a mismatch between word and image.�
 
 https://github.com/user-attachments/assets/d093c932-83a1-435b-920a-1e89369ac48d
 
-
 Example of the imagine trials (tip: unmute audio).  
 Instructions: *“Close your eyes and mentally imagine the image belonging to the word you hear as vividly as possible.”*
 
@@ -35,7 +34,7 @@ The data consist of `mne.Epochs` from the `localizer` and `imagine` trials. The 
 
 **Localizer:** 480 epochs, 48 per stimulus item. Each trial spans −200 ms before visual onset to 1000 ms after onset. Trials with mismatched word–image pairs were removed. Baseline correction used the pre-onset interval. Each trial has a label corresponding to one of the stimuli.
 
-**Imagine:** Epochs span −200 ms to 5000 ms after word onset, with no baseline correction. There are 35–50 epochs per participant, with 3–5 trials per stimulus. Trial labels were removed and replaced by numbers. Epochs were randomized, so order does not reflect recording sequence. Note: `imagine` trials were recorded after participants learned image associations (i.e., image sequences). Subconscious reactivation of associated stimuli after the word cue is possible, though we expect the instructed imagery pattern to **supersede** these reactivation effects in decoding strength.
+**Imagine:** Epochs span −200 ms to 5000 ms after word onset, with no baseline correction. There are 20–50 epochs per participant, with 3–5 trials per stimulus. Trial labels were removed and replaced by numbers. Epochs were randomized, so order does not reflect recording sequence. 
 
 ## Background
 
@@ -46,3 +45,8 @@ In human memory research, we typically train decoders on the visual peak of a lo
 To get started, download the data from XXX.
 
 We supply a script with a standard pipeline that decodes the `localizer` trials using cross-validated logistic regression. To verify your solution, we have set up a Kaggle competition where you can upload your predictions and check how well your decoder differentiates the `imagine` trials.
+
+## Things to keep in mind:
+
+- Your task is to train a classifier on the data after stimulus onset of the localizer. While it's probably possible to look at the labels of imagine trials in the train-set and try cross-decoding across participants without the localizer data, this is not the goal
+- The `imagine` trials were recorded after participants learned some image associations (i.e., image sequences). Subconscious reactivation of associated stimuli after the word cue is possible, though we expect the instructed imagery pattern to **supersede** these reactivation effects in decoding strength.
