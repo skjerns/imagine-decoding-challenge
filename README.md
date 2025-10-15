@@ -2,6 +2,10 @@
 
 The epochs have been scrambled! Can you figure out in which epoch we played which auditory word by training a visual decoder *on images of the words*?
 
+You can win a total of 1000$ in price money!
+
+Direct link to the Kaggle competition: https://www.kaggle.com/competitions/the-imagine-decoding-challenge
+
 ## Overview
 
 Can you decode which images people were thinking of from data recorded while they were visually seeing these images?
@@ -42,9 +46,11 @@ In human memory research, we typically train decoders on the visual peak of a lo
 
 ## Getting Started
 
-To get started, download the data from XXX.
+1. To get started, download the data from XXX.
+2. Have a look at the example [notebook](https://github.com/skjerns/imagine-decoding-challenge/tree/main/examples)
+3. Tinker around and find a way to predict the mental imagery
+4. Submit your improved solution via Kaggle to this competition: https://www.kaggle.com/competitions/the-imagine-decoding-challenge
 
-We supply a script with a standard pipeline that decodes the `localizer` trials using cross-validated logistic regression. To verify your solution, we have set up a Kaggle competition where you can upload your predictions and check how well your decoder differentiates the `imagine` trials.
 
 ## Things to keep in mind:
 
