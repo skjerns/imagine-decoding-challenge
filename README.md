@@ -1,6 +1,7 @@
 # imagine-decoding-challenge
 
 The epochs have been scrambled! Can you figure out in which epoch we played which auditory word by training a visual decoder *on images of the words*?
+
 <img width="600" alt="Clipboard_10-14-2025_01" src="https://github.com/user-attachments/assets/6edcd445-7b4f-44cd-8bfc-5562d6c58375" />
 
 You can win a total of 1000$ in price money!
