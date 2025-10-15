@@ -46,7 +46,7 @@ In human memory research, we typically train decoders on the visual peak of a lo
 
 ## Getting Started
 
-1. To get started, download the data from XXX.
+1. To get started, download the data from https://doi.org/10.5281/zenodo.17351690.
 2. Have a look at the example [notebook](https://github.com/skjerns/imagine-decoding-challenge/tree/main/examples)
 3. Tinker around and find a way to predict the mental imagery
 4. Submit your improved solution via Kaggle to this competition: https://www.kaggle.com/competitions/the-imagine-decoding-challenge
